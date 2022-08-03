@@ -731,7 +731,7 @@ class Window(pyglet.window.Window):
                 self.dy = JUMP_SPEED
         elif symbol == key.ESCAPE:
             self.set_exclusive_mouse(False)
-            print("hhhhhhhhhhhh")
+            print("here to call nft api")
         elif symbol == key.TAB:
             self.flying = not self.flying
         elif symbol in self.num_keys:
