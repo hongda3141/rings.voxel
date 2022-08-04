@@ -2,8 +2,8 @@
 
 ```shell
 pip install pyglet
-git clone https://github.com/fogleman/Minecraft.git
-cd Minecraft
+git clone https://github.com/hongda3141/rings.voxel
+cd rings.voxel
 python main.py
 ```
 
