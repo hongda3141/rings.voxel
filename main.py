@@ -4,6 +4,7 @@ import sys
 import math
 import random
 import time
+import api
 
 from collections import deque
 from pyglet import image
@@ -731,7 +732,8 @@ class Window(pyglet.window.Window):
                 self.dy = JUMP_SPEED
         elif symbol == key.ESCAPE:
             self.set_exclusive_mouse(False)
-            print("here to call nft api")
+        elif symbol == key.Q:
+            api.nft()
         elif symbol == key.TAB:
             self.flying = not self.flying
         elif symbol in self.num_keys:
