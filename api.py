@@ -80,8 +80,6 @@ def post_read_nft():
     if res.ok:
         info = json.loads(res.text)
         print("tokenId is: ",info.get('tokenId'))
-    else:
-        print("tokenId is : 3d4fdfbfad0c0197969373febcc5468c34e7dfdac72374d0f1817ab6788cd33d")
     end = time.time()
     print("read cost time :", end - start)
 
